@@ -1,65 +1,32 @@
-.innpakning{
-	width: 800px; /*innpakningens bredde */
-	background-color: #404040; /*mørk gråfarge*/
-	margin: auto; /* like stor høyre- og venstremarg*/
-	display: flex; /*angir at vi vil bruke flexboks*/
-	flex-direction: column; /*plasserer bokser i en kolonne*/
+body {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
-.topptekst {
-	font-weight:bold; /*fet skrift*/
-	font-size: 36px; /*setter størrelsen på skriften/fonten */
-	font-family:"Century Gothic", Arial, sans-serif; /*setter skrifttypen til en typeuten "føtter (seriffer)"*/
-	text-align:center; /*midtstiller teksten*/
-	height:120px; /*overskrift-/toppteksthøyde */
-	background-color: #40BBDD; /*blågrønn farge*/
-	padding: 5px; /* avstand mellom bokskant og innhold*/
-	margin: auto; /* luft rundt overskrift-/topptekstboks*/
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color: #B96BE8;
+  position: sticky;
+  font-size: 25px;
 }
 
-.meny {
-	
-	background-color: #f04605; /*oransje farge*/
-	padding: 5px; /*avstand mellom bokskant og innhold*/
-	margin: 5px; /* luft rundt menyboks*/
-	font-weight: bold;
-	font-family:"Century Gothic", Arial, sans-serif;
+nav a {
+  display: inline;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
 }
-.innhold {
-		background-color: #e9eae9; /*lys grå farge*/
-		padding: 30px; /*avstand mellom bokskant og innhold*/
-		margin: 5px; /* luft rundt menyboks*/
-		height: 150px;/*størrelsen på innholdsboksen*/
-		text-align: left;
-		font-family:"Century Gothic", Arial, sans-serif;
-		font-size: 12px;
-}
-.innhold2 {
-		background-color: #e9eae9; /*lys grå farge*/
-		padding: 8px; /*avstand mellom bokskant og innhold*/
-		margin: 5px; /* luft rundt menyboks*/
-		height: 150px;/*størrelsen på innholdsboksen*/
-		/*text-align: left;*/
-		/*font-family:"Century Gothic", Arial, sans-serif;*/
-		/*font-size: 12px;*/
-		
-}	
 
+nav a:hover {
+  background-color: #F282FF;
+}
 
-ul {
-	list-style-type:none;
-	margin: 0;
-	padding: 0;
-}
-ul li {
-	display:inline; 
-}
-ul a {
-	padding: 10px 30px;
-	color: #333333;
-	font-weight: bold;
-	text-decoration: none;
-}
-ul a:hover {
-	background-color: #eeeeee;
+.active {
+  background-color: #A675FF;
 }
