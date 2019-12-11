@@ -25,6 +25,7 @@
 	font-weight: bold;
 	font-family:"Century Gothic", Arial, sans-serif;
 }
+<<<<<<< Updated upstream
 .innhold {
 		background-color: #e9eae9; /*lys grå farge*/
 		padding: 30px; /*avstand mellom bokskant og innhold*/
@@ -33,6 +34,11 @@
 		text-align: left;
 		font-family:"Century Gothic", Arial, sans-serif;
 		font-size: 12px;
+=======
+
+nav a:hover {
+  background-color: #F28211;
+>>>>>>> Stashed changes
 }
 .innhold2 {
 		background-color: #e9eae9; /*lys grå farge*/
@@ -46,6 +52,7 @@
 }	
 
 
+<<<<<<< Updated upstream
 ul {
 	list-style-type:none;
 	margin: 0;
@@ -62,4 +69,8 @@ ul a {
 }
 ul a:hover {
 	background-color: #eeeeee;
+=======
+.active {
+  background-color: #F282FF;
+>>>>>>> Stashed changes
 }
