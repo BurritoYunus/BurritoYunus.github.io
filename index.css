@@ -8,6 +8,8 @@ body {
 
 article {
 	padding: 10px;
+	display: flex;
+	flex-direction: column;
 }
 
 article h1 {
