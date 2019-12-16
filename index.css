@@ -9,7 +9,8 @@ body {
 article {
 	padding: 10px;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 article h1 {
@@ -19,6 +20,10 @@ article h1 {
 
 article p {
 	width: 500px;
+}
+
+aside {
+	margin-left: 25px;
 }
 
 span {
