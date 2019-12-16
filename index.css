@@ -1,9 +1,14 @@
 body {
-  font-size: 25px;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
-  background-color: #fafafa;
+	font-size: 25px;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url("Kuler.png")
+}
+
+header {
+	margin: 15px;
+	margin-left: 5px;
 }
 
 article {
@@ -11,6 +16,8 @@ article {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	color: white;
+	text-shadow: 1px 1px 1px black;
 }
 
 article h1 {
@@ -30,24 +37,27 @@ aside {
 	margin-left: 50px;
 }
 
-span {
-	font-family: Arial;
-	font-size: 35px;
-	color: #B96BE8;
+figure {
+	margin: 0;
+	padding: 0;
 }
 
-header {
-	padding: 10px;
+figure img {
+	float: right;
+	margin-left: 10px;
+	margin-top: -2px;
+	border: 1px solid white;
+}
+
+figure p {
+	width: 600px;
 }
 
 nav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #fafafa;
-	border: 1px solid #e7e7e7;
-	border-left: 0;
-	border-right: 0;
+	background-color: white;
 	position: sticky;
 	top: 0;
 }
@@ -56,11 +66,11 @@ nav a {
 	float: left;
 	padding: 8px;
 	text-decoration: none;
-	color: #6b6b6b;
+	color: #2e2e2e;
 }
 
 nav a:hover {
-	background-color: #ddd;
+	background-color: #f0f0f0;
 }
 
 .active {
