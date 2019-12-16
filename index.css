@@ -22,8 +22,12 @@ article p {
 	width: 500px;
 }
 
+section, aside {
+	margin: 15px;
+}
+
 aside {
-	margin-left: 25px;
+	margin-left: 50px;
 }
 
 span {
