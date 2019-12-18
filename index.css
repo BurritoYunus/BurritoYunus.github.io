@@ -94,10 +94,6 @@ figure p {
 footer {
 	clear: both;
 	font-size: 20px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-shadow: 1px 1px 1px black;
+    color: white;
+	text-shadow: 1px 1px 1px black;
 }
