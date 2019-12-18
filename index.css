@@ -5,9 +5,9 @@ body {
 	font-size: 25px;
 	margin: 0;
 	padding: 0;
-	background-image: url("Kuler.png");
 	background-repeat: no-repeat;
 	background-color: black;
+	background-image: url("Kuler.png");
 }
 
 header {
@@ -87,6 +87,10 @@ nav a:hover {
 
 footer {
 	font-size: 20px;
-	color: white;
-	text-shadow: 1px 1px 1px black;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
