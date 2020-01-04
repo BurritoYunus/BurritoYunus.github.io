@@ -90,6 +90,7 @@ figure {
 
 #ball {
 	margin: 35px;
+	margin-left: 100px;
 	border: 5px ridge white;
 	border-radius: 5px;
 }
