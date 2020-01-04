@@ -62,12 +62,8 @@ article p {
 	width: 500px;
 }
 
-section, aside {
-	margin: 15px;
-}
-
-aside {
-	margin-left: 50px;
+section {
+	margin: 12px;
 }
 
 figure {
@@ -75,20 +71,46 @@ figure {
 	padding: 0;
 }
 
-figure img {
-	float: right;
-	margin-left: 15px;
-	border: 1px ridge white;
-}
-
-figure p {
-	width: 555px;
+#artikkel {
+	text-decoration: none;
+	color: white;
+	text-shadow: 1px 1px 1px black;
 }
 
 #ball {
-	float: right;
 	margin: 35px;
-	border: 5px ridge white
+	border: 5px ridge white;
+	border-radius: 5px;
+}
+
+#trump {
+	margin: 35px;
+	border: 5px ridge white;
+	border-radius: 5px;
+}
+
+#norskdata {
+	margin: 35px;
+	margin-left: 100px;
+	border: 5px ridge white;
+	border-radius: 5px;
+}
+
+#engelskdata {
+	margin: 35px;
+	margin-left: 100px;
+	border: 5px ridge white;
+	border-radius: 5px;
+}
+
+#tidslinje {
+	margin: 35px;
+	border: 5px ridge white;
+	border-radius: 5px;
+}
+
+#liten {
+	font-size: 17px;
 }
 
 footer {
