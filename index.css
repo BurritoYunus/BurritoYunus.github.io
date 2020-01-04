@@ -66,6 +66,17 @@ section {
 	margin: 12px;
 }
 
+.loddrett {
+	font-size: 30px;
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.større {
+	font-size: 35px;
+}
+
 figure {
 	margin: 0;
 	padding: 0;
