@@ -20,18 +20,18 @@ nav {
 	padding: 0;
 	overflow: hidden; /* får vekk den effekten av at hoveren går utenfor kantene på knappen på menyen*/
 	background-color: rgba(0, 0, 0, 0.3); /* her minker vi opacity/synligheten til navigasjonsmenyen slik at den blender mer med bakgrunnen*/
-	position: sticky;
+	position: sticky; /*Gjør slik at menyen følger etter oss idet vi scroller nedover siden vår*/
 	top: 0;
 }
 
 nav a {
-	float: left;
+	float: left; /* Dette formaterer bildet. Skriften blir plasser til venstre innenfor menyen sin*/
 	padding: 8px;
-	text-decoration: none;
+	text-decoration: none; /* her gjør vi slik at teksten ikke har noen dekorasjoner som vi ikke ønsker*/
 	color: white;
-	border-right: 1px solid rgba(255, 255, 255, 0.8);
+	border-right: 1px solid rgba(255, 255, 255, 0.8); /*setter stil, bredde og fargen på grensen på boksen*/
 	font-family: Verdana;
-	font-size: 22;
+	font-size: 22; /*Velger størrelsen på fontet*/
 }
 
 a:last-child {
