@@ -35,11 +35,11 @@ nav a {
 }
 
 a:last-child {
-	border-right: none;
+	border-right: none; /*Fjerner hvit border til helt til høyre på nav linja*/
 }
 
 nav a:hover {
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);  /*Fargen på hover*/
 }
 
 .active {
