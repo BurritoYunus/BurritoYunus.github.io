@@ -19,7 +19,7 @@ nav {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: white;
+	background-color: rgba(0, 0, 0, 0.3);
 	position: sticky;
 	top: 0;
 }
@@ -28,8 +28,10 @@ nav a {
 	float: left;
 	padding: 8px;
 	text-decoration: none;
-	color: #2e2e2e;
-	border-right: 1px solid #353535;
+	color: white;
+	border-right: 1px solid rgba(255, 255, 255, 0.8);
+	font-family: Verdana;
+	font-size: 22;
 }
 
 a:last-child {
@@ -37,7 +39,7 @@ a:last-child {
 }
 
 nav a:hover {
-	background-color: #f0f0f0;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
 .active {
