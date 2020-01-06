@@ -5,20 +5,20 @@ body {
 	font-size: 25px; /* Her bestemmer vi størrelsen på font/skriften*/
 	margin: 0; /* Her setter vi størrelsen på ytre marg på boksen lik 0*/
 	padding: 0; /*Her setter vi størrelsen på indre marg på boksen lik 0*/
-	background-repeat: no-repeat; /*vi setter dette slik at bakgrunnen ikke blir gjentatt flere ganger og at vi unngår at bakgrunnen er overfyllt med firkanta bokser*/
-	background-color: black; /* setter fargen på bakgrunnen til svart*/
+	background-repeat: no-repeat; /*Vi setter dette slik at bakgrunnen ikke blir gjentatt flere ganger og at vi unngår at bakgrunnen er overfyllt med firkanta bokser*/
+	background-color: black; /*Setter fargen på bakgrunnen til svart*/
 	background-image: url("Kuler.png"); /*Setter inn et bakgrunnsbilde, bruker url for å henvise til bildet som skal brukes. Husk bildet må være i samme mappe og ha riktig filtype*/
 }
 
 header {
-	margin: 15px; /*plasserer boksen og bestemmer avstanden fra veggene til siden*/
-	margin-left: 5px; /* her fokuserer vi på venstre siden av boksen*/
+	margin: 15px; /*Plasserer boksen og bestemmer avstanden fra veggene til siden*/
+	margin-left: 5px; /*Her fokuserer vi på venstre siden av boksen*/
 }
 
 nav {
 	margin: 0;
 	padding: 0;
-	overflow: hidden; /* får vekk den effekten av at hoveren går utenfor kantene på knappen på menyen*/
+	overflow: hidden; /*Får vekk den effekten av at hoveren går utenfor kantene på knappen på menyen*/
 	background-color: rgba(0, 0, 0, 0.3); /* her minker vi opacity/synligheten til navigasjonsmenyen slik at den blender mer med bakgrunnen*/
 	position: sticky; /*Gjør slik at menyen følger etter oss idet vi scroller nedover siden vår*/
 	top: 0;
@@ -29,7 +29,7 @@ nav a {
 	padding: 8px;
 	text-decoration: none; /* her gjør vi slik at teksten ikke har noen dekorasjoner som vi ikke ønsker*/
 	color: white;
-	border-right: 1px solid rgba(255, 255, 255, 0.8); /*setter stil, bredde og fargen på grensen på boksen*/
+	border-right: 1px solid rgba(255, 255, 255, 0.8); /*Setter stil, bredde og fargen på grensen på boksen*/
 	font-family: Verdana;
 	font-size: 22; /*Velger størrelsen på fontet*/
 }
@@ -43,12 +43,8 @@ nav a:hover {
 }
 
 .active {
-	background-color: #F282FF;
+	background-color: #F282FF; /*Viser hvilken side du er på*/
 	color: white;
-}
-
-#english {
-	float: right;
 }
 
 article {
@@ -67,12 +63,26 @@ article h1 {
 }
 
 article p {
-	width: 500px;
+	width: 500px; /*Bredden på innholdet i artikkelen*/
 }
 
 section {
 	margin: 12px;
 }
+
+figure {
+	margin: 0; /*Ingen margin på figuren*/
+	padding: 0; /*Ingen padding på figuren*/
+}
+
+footer {
+	margin-top: 20px;
+	clear: both; /*Plasserer footer nederst på siden*/
+	font-size: 13px;
+    color: #EDEDED;
+}
+
+/*Resten er bare "class" ig "id"*/
 
 .loddrett {
 	font-size: 30px;
@@ -85,9 +95,8 @@ section {
 	font-size: 30px;
 }
 
-figure {
-	margin: 0;
-	padding: 0;
+#høyre {
+	float: right;
 }
 
 #artikkel {
@@ -129,11 +138,4 @@ figure {
 	margin-left: 30px;
 	border: 5px ridge white;
 	border-radius: 5px;
-}
-
-footer {
-	margin-top: 20px;
-	clear: both;
-	font-size: 13px;
-    color: #EDEDED;
 }
