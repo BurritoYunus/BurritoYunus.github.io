@@ -57,7 +57,7 @@ article {
 	flex-direction: row;
 	flex-wrap: wrap;
 	color: white;
-	text-shadow: 1px 1px 1px black;
+	text-shadow: 1px 1px 1px black; /*Skyggen på teksten i article*/
 }
 
 article h1 {
