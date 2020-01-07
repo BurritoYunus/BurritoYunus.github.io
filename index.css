@@ -5,9 +5,11 @@ body {
 	font-size: 25px; /* Her bestemmer vi størrelsen på font/skriften*/
 	margin: 0; /* Her setter vi størrelsen på ytre marg på boksen lik 0*/
 	padding: 0; /*Her setter vi størrelsen på indre marg på boksen lik 0*/
-	background-repeat: no-repeat; /*Vi setter dette slik at bakgrunnen ikke blir gjentatt flere ganger og at vi unngår at bakgrunnen er overfyllt med firkanta bokser*/
+	background-repeat: no-repeat; /*Vi setter dette slik at bakgrunnen ikke blir gjentatt flere 
+	ganger og at vi unngår at bakgrunnen er overfyllt med firkanta bokser*/
 	background-color: black; /*Setter fargen på bakgrunnen til svart*/
-	background-image: url("Kuler.png"); /*Setter inn et bakgrunnsbilde, bruker url for å henvise til bildet som skal brukes. Husk bildet må være i samme mappe og ha riktig filtype*/
+	background-image: url("Kuler.png"); /*Setter inn et bakgrunnsbilde, bruker url for å henvise 
+	til bildet som skal brukes. Husk bildet må være i samme mappe og ha riktig filtype*/
 }
 
 header {
