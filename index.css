@@ -50,7 +50,7 @@ nav a:hover {
 article {
 	padding: 10px;
 	display: flex;
-	flex-direction: row;
+	flex-direction: row; /*Vi tenkte å bruke flex, men den funker bare hvis vi har flere avsnitt*/
 	flex-wrap: wrap;
 	color: white;
 	text-shadow: 1px 1px 1px black; /*Skyggen på teksten i article*/
